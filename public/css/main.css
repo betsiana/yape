@@ -1,0 +1,13 @@
+img{
+  width: 200px !important;
+  height: 200px;
+}
+.container{
+  padding-top: 50px;
+}
+.carousel-slider{
+  height: 400px !important;
+}
+.boton-large{
+  width: 100%;
+}
