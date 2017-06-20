@@ -2,6 +2,16 @@ img{
   width: 200px !important;
   height: 200px;
 }
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.orange{
+  background-color: orange;
+}
+
 .container{
   padding-top: 50px;
 }

@@ -5159,13 +5159,13 @@ small {
 
 .btn:focus, .btn-large:focus,
 .btn-floating:focus {
-  background-color: #fbd43b;
+  background-color: #1d7d74;
 }
 
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #fbd43b;
+  background-color: #26a69a;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -5173,7 +5173,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #fbd43b;
+  background-color: #2bbbad;
 }
 
 .btn-floating {
@@ -8025,13 +8025,13 @@ input[type=range]:focus::-ms-fill-upper {
   height: 8px;
   width: 8px;
   margin: 24px 4px;
-  background-color: rgba(143, 143, 143, 1);
+  background-color: rgba(255, 255, 255, 0.5);
   transition: background-color .3s;
   border-radius: 50%;
 }
 
 .carousel .indicators .indicator-item.active {
-  background-color: #f64552;
+  background-color: #fff;
 }
 
 .carousel.scrolling .carousel-item .materialboxed,
