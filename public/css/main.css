@@ -2,16 +2,6 @@
   width: 200px !important;
   height: 200px;
 }
-.blue{
-  background-color: blue;
-}
-.green{
-  background-color: green;
-}
-.orange{
-  background-color: orange;
-}
-
 .container{
   padding-top: 50px;
 }
@@ -24,4 +14,163 @@
 .logoTelefono{
   width: 120px;
   height: 100px;
+}
+.titulo-tamano{
+  font-size: 24px;
+}
+.confirmacion-tamano{
+  font-size: 20px;
+}
+.icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+}
+.iconLock{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+}
+.nameicon{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 27px;
+}
+.lock{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 17px;
+}
+.menssageicon{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 25px;
+}
+.lockicon{
+  position: absolute;
+  top: 134px;
+  left: 0;
+  width: 21px;
+}
+.numeroTelefono, .negrita{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.textoturquesa{
+  color: #00c3a3;
+}
+.validacion, .contInput{
+  margin-top: 60px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.fondo-confirmacion{
+  color: #38052a;
+  padding-top: 200px;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: #fbd43b;
+}
+.logo-tamano{
+  width: 100px;
+}
+.margininput{
+  position: relative;
+  margin-bottom: 0;
+}
+.iconscan{
+  left: 110px;
+  width: 20px;
+  position: absolute;
+}
+#year, #mes{
+  width: 30px;
+  height: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.margintexto{
+  margin-right: 40px;
+}
+.area-completa{
+  margin: 0;
+  padding: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #38052a;
+  position: absolute;
+  top: 0;
+}
+.padding-bottom{
+  padding-bottom: 50px;
+}
+.fondo-morado-ligth{
+  width: 100%;
+  margin: 0 !important;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #451e36;
+  padding-bottom: 20px;
+}
+.icon-cactus{
+  display: inline-block;
+  width: 156px;
+  position: relative;
+}
+.code-icon{
+  width: 80px;
+}
+.pregunta{
+  font-size: 18px;
+  margin-top: 40px;
+}
+.text-white{
+  color: white;
+}
+.icondireccion{
+  position: relative;
+  right: -80px;
+  top: 5px;
+}
+.fondo-morado{
+  width: 100%;
+  margin: 0 !important;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #38052a;
+}
+.titulo-blanco{
+  color: white;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-bottom: 0;;
+}
+.logo-ojo{
+  width: 20px;
+}
+.texto-mostrar{
+  display: inline;
+  margin-left: 10px;
+}
+.logo-cara{
+  width: 120px;
+  position: relative;
+  top: 70px;
+}
+.logo-tuerca{
+  width: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }

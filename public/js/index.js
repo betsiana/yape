@@ -6,9 +6,17 @@ const render = (root) => {
   root.append(container);
   $('.carousel.carousel-slider').carousel({fullWidth: true});
   $('.registrarse').on('click',function(){
-    // alert('funciona');
     root.empty();
     root.append(ValidateNumero());
+    $('.validarnumero').on('click', function(){
+      root.empty();
+      // root.append(ValidateCode());
+      // root.append(CrearCuenta());/*Probando*/
+      // root.append(Confirmacion());/*Probando*/
+      // root.append(RegistrarTarjeta());/*Probando*/
+      // root.append(IngresaClave());/*Probando*/
+      root.append(Transaccion());/*Probando*/
+    })
   });
 }
 
