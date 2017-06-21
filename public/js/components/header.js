@@ -18,7 +18,7 @@ const Header = () => {
   const imagen3 = $('<img src="img/icons/group-people.png">');
   const titulo3 = $('<h2>Gratis y seguro</h2>');
   const descrip3 =$('<p>La transferencia es inmediata y gratuita de una cuenta a otra.</p>');
-   const boton =$('<button type="button" class="boton-large waves-effect waves-light btn" name="button">Registrarme</button>')
+  const boton =$('<button type="button" class="boton-large waves-effect waves-light registrarse btn" name="button">Registrarme</button>')
   row.append(cols1);
   row.append(cols10);
   cols10.append(contcarrusel);
@@ -37,5 +37,20 @@ const Header = () => {
   cols10.append(boton);
 
   return row;
+
+}
+
+const ValidateNumero = () => {
+  const container = $('<div class="container"></div>');
+  const row = $('<div class="row"></div>');
+  const cols1 = $('<div class="col s1"></div>');
+  const cols10 = $('<div class="col s10 center"></div>');
+  const imgTelefono =$('<img class="logoTelefono" src="img/icons/phone.png">');
+
+  container.append(row);
+  row.append(cols1);
+  row.append(cols10);
+  cols10.append(imgTelefono);
+  return container;
 
 }

@@ -5,6 +5,11 @@ const render = (root) => {
   container.append(Header());
   root.append(container);
   $('.carousel.carousel-slider').carousel({fullWidth: true});
+  $('.registrarse').on('click',function(){
+    // alert('funciona');
+    root.empty();
+    root.append(ValidateNumero());
+  });
 }
 
 const state = {

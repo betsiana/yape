@@ -1,4 +1,4 @@
-img{
+.carousel-item img{
   width: 200px !important;
   height: 200px;
 }
@@ -20,4 +20,8 @@ img{
 }
 .boton-large{
   width: 100%;
+}
+.logoTelefono{
+  width: 120px;
+  height: 100px;
 }
