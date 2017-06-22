@@ -58,6 +58,7 @@ const render = (root) => {
       }
     });
   });
+
 }
 
 const state = {
@@ -70,3 +71,10 @@ $( _ => {
     const root = $('.root');
     render(root);
 });
+
+
+
+  $('#registrarfinal').on('click',function(){
+    root.empty();
+    root.append(Transaccion());
+  });

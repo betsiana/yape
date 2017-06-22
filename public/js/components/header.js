@@ -217,7 +217,6 @@ const IngresaClave = () =>{
   tarjeta.append(iconlock);
   cols10.append(botonregistrar);
   return container;
-
 }
 
 const Transaccion = () => {
