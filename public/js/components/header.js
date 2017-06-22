@@ -171,7 +171,7 @@ const RegistrarTarjeta = () =>{
     const slach = $('<span class=" ">/</span>');
     const year = $('<input id="year" placeholder="Año" class="center" type="text" maxlength="2" name="" value="">');
 
-  const botoncontinuar =$('<button type="button" class="waves-effect waves-light registrotarjeta btn" name="button">CONTINUAR</button>');
+  const botoncontinuar =$('<button id="registrartarjeta" type="button" class="waves-effect waves-light registrotarjeta btn" name="button">CONTINUAR</button>');
   container.append(row);
   row.append(cols1);
   row.append(cols10);
@@ -203,7 +203,7 @@ const IngresaClave = () =>{
   const tarjeta =$('<form class="center margininput"></form>');
   const input61 = $('<input id="clavetarjeta" class="center negrita" type="text" maxlength="12" name="" value="">');
   const iconlock = $('<img class="lock" src="img/icons/lock.png">');
-  const botonregistrar =$('<button type="button" class="waves-effect waves-light registrar btn" name="button">REGISTRAR</button>');
+  const botonregistrar =$('<button id="registrarfinal" type="button" class="waves-effect waves-light registrar btn" name="button">REGISTRAR</button>');
 
 
   container.append(row);

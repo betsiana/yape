@@ -36,6 +36,16 @@ const render = (root) => {
                 setTimeout(function(){
                   root.empty();
                   root.append(RegistrarTarjeta());
+                  $('#registrartarjeta').on('click',function(){
+                    root.empty();
+                    root.append(IngresaClave());
+                    $('#registrarfinal').on('click',function(){
+                      root.empty();
+                      root.append(Transaccion());
+                    });
+                  });
+
+
               }, 3000);
             })
           }
