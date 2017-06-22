@@ -55,7 +55,7 @@ const ValidateNumero = () => {
   const contenedorP = $('<p></p>');
   const condiciones = $('<input type="checkbox" class="filled-in" id="filled-in-box"/>');
   const label = $('<label for="filled-in-box">Acepto los <span class="textoturquesa">Términos y condiciones</span></label>');
-  const boton1 =$('<button type="button" class="waves-effect waves-light validarnumero btn" name="button">CONTINUAR</button>')
+  const boton1 =$('<button type="button" class="disabled waves-effect waves-light validarnumero btn" name="button">CONTINUAR</button>')
 
   container.append(row);
   row.append(cols1);
