@@ -36,8 +36,8 @@ const Header = () => {
   carrusel3.append(descrip3);
   cols10.append(boton);
 
-  return row;
 
+  return row;
 }
 
 const ValidateNumero = () => {
@@ -55,7 +55,7 @@ const ValidateNumero = () => {
   const contenedorP = $('<p></p>');
   const condiciones = $('<input type="checkbox" class="filled-in" id="filled-in-box"/>');
   const label = $('<label for="filled-in-box">Acepto los <span class="textoturquesa">Términos y condiciones</span></label>');
-  const boton1 =$('<button type="button" class="disabled waves-effect waves-light validarnumero btn" name="button">CONTINUAR</button>')
+  const boton1 =$('<button id="validarNumero" type="button" class="disabled waves-effect waves-light validarnumero btn" name="button">CONTINUAR</button>')
 
   container.append(row);
   row.append(cols1);
@@ -71,7 +71,6 @@ const ValidateNumero = () => {
   contenedorP.append(label);
   cols10.append(boton1);
   return container;
-
 }
 
 const ValidateCode = () =>{
@@ -81,7 +80,7 @@ const ValidateCode = () =>{
   const cols10 = $('<div class="col s10 center"></div>');
   const imgmessage = $('<img class="logoTelefono" src="img/icons/message.png">');
   const titulo31 = $('<h2 class="titulo-tamano">Ahora ingresa tu código</h2>');
-  const descrip31 = $('<p>Enviamos un código con de validación al número ------- </p>');
+  const descrip31 = $('<p>Enviamos un código con de validación al número '+state.usuarios+' </p>');
 
   const codigoMensaje =$('<form class="center contInput"></form>');
   const input31 = $('<input id="codigo" class="center negrita" type="text" maxlength="6" name="" value="">');
@@ -115,10 +114,10 @@ const CrearCuenta = () =>{
   const email = $('<input id="codigo" class="center negrita" type="text" placeholder="correo@ejemplo.com" name="" value="">');
   const iconemail = $('<img class="menssageicon" src="img/icons/message-gray.png">');
 
-  const contrass = $('<input id="codigo" class="center negrita" type="text" placeholder="Ingresa clave de 6 digitos" name="" value="">');
+  const contrass = $('<input id="codigo" class="center negrita" type="password" placeholder="Ingresa clave de 6 digitos" name="" value="">');
   const iconpassword = $('<img class="lockicon" src="img/icons/lock.png">');
   const spanmensaje = $('<span>Cuida esta clave como oro, es tu acceso a Yape.</span>');
-  const boton2 =$('<button type="button" class="waves-effect waves-light crearcuenta btn" name="button">CREAR CUENTA</button>')
+  const boton2 =$('<button id="crearcuenta" type="button" class="waves-effect waves-light crearcuenta btn" name="button">CREAR CUENTA</button>')
 
   container.append(row);
   row.append(cols1);
